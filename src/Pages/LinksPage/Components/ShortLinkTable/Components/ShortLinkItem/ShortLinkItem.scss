@@ -1,0 +1,44 @@
+.short-link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem 0;
+
+  li{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 1rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .icon {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    color: #555;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .delete-icon {
+    color: #dc3545;
+
+    &:hover {
+      color: #c82333;
+    }
+  }
+}

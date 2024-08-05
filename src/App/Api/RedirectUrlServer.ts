@@ -1,0 +1,1 @@
+export const RedirectUrlServer : string = "http://localhost:3000";

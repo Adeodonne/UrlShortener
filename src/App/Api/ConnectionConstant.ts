@@ -1,0 +1,1 @@
+export const ConnectionConstant : string = "http://localhost:5244/api"
